@@ -1,12 +1,7 @@
 #include <stdio.h>
 
-/*
- * main-entry point
- * Description: a C program that prints exactly with puts function
- * Return value:0
-*/
-int main(void)
-{	
+int main(void){
+ // A simple print statement using the puts function()	
       puts("Programming is like building a multilingual puzzle\n);
        return 0;
 }
