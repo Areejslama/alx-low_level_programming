@@ -3,10 +3,11 @@
 /**
  * main-entry point
  *
- * Description: C program that prints exactly with puts function
+ * Description:print "Programming is like building a multilingual puzzle"
  *
- * Return value:0
- * 
+ * @parameter:no parameters
+ *
+ * Return:Always 0(success) 
  */
 int main(void)
 {	
