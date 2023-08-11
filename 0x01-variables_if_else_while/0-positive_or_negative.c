@@ -9,19 +9,19 @@
 int main(void)
 {
 	int x;
-	printf("enter number\n");
+	printf("enter your number\n");
 	scanf("%d",&x);	
 	if(x>0)
 	{
-	printf("The number is positive\n");
+	printf("The number%d is positive\n");
 	}
 	else if(x=0)
 	{	
-	printf("The number is zero\n");
+	printf("The number%d is zero\n");
 	}
 	else (x<0)
 	{	
-	printf("The number is negative\n");
+	printf("The number%d is negative\n");
 	}
        return(0);	
 }
