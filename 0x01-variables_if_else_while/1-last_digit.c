@@ -17,6 +17,6 @@ int main (void)
 		A = n % 10;
 		 printf("Enter A number: ")
 		 scanf("%d",&n)
-		printf("the last digit of a number %d is %d,n,A\n");	 
+		printf("the last digit of a number %d is %d \n",n,A);	 
 		return (0);
 }		
