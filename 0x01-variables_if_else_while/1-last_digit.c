@@ -14,8 +14,8 @@ int main (void)
 
 		srand(time(0));
 		n = rand() - RAND_MAX / 2;
-		last digit = n % 10;
-		 printf("Enter A number: ")
+		Last digit = n % 10;
+		 printf("Enter number = ");
 		 scanf("%d",&n)
 		printf("the last digit of entered number  is: %d \n", lastDigit);	 
 		return (0);
