@@ -8,11 +8,9 @@
 */
 int main (void)
 {
-	//declare a variable
 	char alphabet = "a";
-	for ( alphabet = 'a'; alphabet <= 'z' ; alphabet++)
-	{	
-	// print the value of the variable 	
+	for ( alphabet = "a"; alphabet <= "z" ; alphabet++)
+	{		
 		putchar(alphabet);
 	}
 	putchar("\n");
