@@ -7,7 +7,7 @@
  * Description: program will assign a random numbe
  *
  * Return:0 Always (success)
- */ 
+*/ 
 int main(void)
 {
 	int n;
