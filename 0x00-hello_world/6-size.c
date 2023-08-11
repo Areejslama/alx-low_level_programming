@@ -2,7 +2,7 @@
 /**
  * main-this is entry point
  *
- * Description: C program that prints the size of various types 
+ * Description:C program that prints the size of various types 
  *
  * Return:0 Always (success)
  */
@@ -14,4 +14,4 @@ int main(void)
 	printf("Size of a long long int: %zu byte(s)\n", sizeof(long long int));
 	printf("Size of a float: %zu byte(s)\n", sizeof(float));
 	return (0);
-}	
+}
