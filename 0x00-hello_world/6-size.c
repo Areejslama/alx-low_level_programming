@@ -2,7 +2,7 @@
 /**
  * main-this is entry point
  *
- * Description: C program that prints the size of various types on the computer it is compiled
+ * Description: C program that prints the size of various types 
  *
  * Return:0 Always (success)
  */
