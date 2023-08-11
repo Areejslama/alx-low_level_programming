@@ -9,8 +9,8 @@
 int main(void)
 {
 	int x;
-	printf("enter number\n")
-	scanf("%d",&x)	
+	printf("enter number\n");
+	scanf("%d",&x);	
 	if(x>0)
 	{
 	printf("The number is positive\n");
