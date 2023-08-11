@@ -8,20 +8,20 @@
  */
 int main(void)
 {
-	int x;
-	printf("enter your number\n");
-	scanf("%d",&x);	
-	if(x>0)
+	int n;
+	printf("Enter A Number :");
+	scanf("%d",&n);	
+	if(n>0)
 	{
-	printf("The number n is positive\n");
+	printf("The number is positive \n");
 	}
-	else if(x=0)
+	else if
 	{	
-	printf("The number n is zero\n");
+	printf("The number is zero");
 	}
-	else (x<0)
+	else (n<0)
 	{	
-	printf("The number n is negative\n");
+	printf("The number is negative \n");
 	}
        return(0);	
 }
