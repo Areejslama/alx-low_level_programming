@@ -9,13 +9,17 @@
 int main(void)
 {
 	int x;
-	if(x>0){
+	printf("enter number\n")
+	scanf ("%d,%x\n")	
+	if(x>0)
+	{
 	printf("The number is positive\n");
 	}
-	else if (x=0)
+	else if(x=0)
 	printf("The number is zero\n");
-	else {
-	if(x<0)
-	printf("The number is False\n");
-	return (0);
+	}
+	else (x<0)
+	printf("The number is negative");
+	}
+       return(0);	
 }
