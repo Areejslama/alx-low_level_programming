@@ -10,13 +10,13 @@
 */
 int main (void)
 {	
-		int n, A;
+		int n, last digit;
 
 		srand(time(0));
 		n = rand() - RAND_MAX / 2;
-		A = n % 10;
+		last digit = n % 10;
 		 printf("Enter A number: ")
 		 scanf("%d",&n)
-		printf("the last digit of a number %d is %d \n",n,A);	 
+		printf("the last digit of entered number  is: %d \n", lastDigit);	 
 		return (0);
 }		
