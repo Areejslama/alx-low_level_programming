@@ -10,7 +10,7 @@ int main(void)
 {
 	int x;
 	printf("enter number\n")
-	scanf ("%d,%x\n")	
+	scanf("%d",&x)	
 	if(x>0)
 	{
 	printf("The number is positive\n");
@@ -19,7 +19,7 @@ int main(void)
 	printf("The number is zero\n");
 	}
 	else (x<0)
-	printf("The number is negative");
+	printf("The number is negative\n");
 	}
        return(0);	
 }
