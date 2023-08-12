@@ -10,13 +10,18 @@ int main(void)
 {
 	char ch = 'a';
 	/*print a - z*/
-	/*prints A - Z*/
 	while (ch <= 'z')
 	{	
 	putchar(ch);
 	ch++;
-	}	
+	}
+	char ch = 'A';
 	 /*prints A - Z*/
+	while (ch <= 'Z')
+	{	
+	putchar(ch);
+	ch++
+	}	
 	putchar('\n');
 	return (0);
 	
