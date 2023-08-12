@@ -21,8 +21,7 @@ int main(void)
 	{	
 	putchar(B);
 	B++;
-	}	
+	}
 	putchar('\n');
 	return (0);
-	
-}	
+}
