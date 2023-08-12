@@ -6,12 +6,12 @@
  *
  * Return:0 Always (success)
 */
-int main (void)
+int main(void)
 {
 	char ch = 'a';
 	/*prints a - z*/
-	while(ch <= 'z')
-	{	
+	while (ch <= 'z')
+	{
 	putchar(ch);
 	ch++;
 	}
