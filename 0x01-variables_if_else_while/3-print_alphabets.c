@@ -9,7 +9,8 @@
 int main(void)
 {
 	char ch = 'A';
-	 /*prints A - Z*/
+	/*prints a -Z*/
+	/*prints A - Z*/
 	while (ch <= 'Z')
 	{	
 	putchar(ch);
