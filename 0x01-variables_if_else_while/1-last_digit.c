@@ -18,15 +18,7 @@ int main (void)
 		Last digit = n % 10;
 		 printf("enter a number:");
 		 scanf("%d",&n);
-		 printf("the last digit of n1 is %d and is greater than 5,n,last_digit");
-
-		 printf("enter a number:");
-		 scanf("%d",&n);
-		 printf("last digit of n2 is %d and is 0 ,n,last_digit");
-
-		 printf("enter a number:");
-		 scanf("%d",&n);
-		 printf(" last digit of n and is less than 6 and not 0,n,last_digit");
+		 printf("the last digit of n equal %d,n,n,n,last_digit\n"); 
 		 return (0);
 
 	  
