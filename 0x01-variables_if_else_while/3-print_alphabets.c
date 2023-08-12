@@ -17,10 +17,10 @@ int main(void)
 	}
 	char B = 'A';
 	/*prints A - Z*/
-	while (ci <= 'Z')
+	while (B <= 'Z')
 	{	
-	putchar(ci);
-	ci++;
+	putchar(B);
+	B++;
 	}	
 	putchar('\n');
 	return (0);
