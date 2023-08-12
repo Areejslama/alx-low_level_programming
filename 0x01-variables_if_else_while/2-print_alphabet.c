@@ -6,7 +6,7 @@
  *
  * Return:0 Always (success)
 */
-int main ()
+int main (void)
 {
 	char ch ='a';
 	/*prints a - z*/
@@ -15,6 +15,6 @@ int main ()
 	putchar(ch);
 	ch++;
 	}	
-	putchar ('\n')
-	return (0);
+	putchar ('\n');
+	return ;(0)
 }
