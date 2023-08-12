@@ -9,8 +9,6 @@
 int main(void)
 {
 	char ch = 'a';
-	char CH = 'A';
-
 	/*print a - z*/
 	while (ch <= 'z')
 	{	
@@ -18,9 +16,6 @@ int main(void)
 	ch++;
 	}	
 	 /*prints A - Z*/
-	while (ch <= 'Z')
-	putchar(ch);
-	ch++;
 	putchar('\n');
 	return (0);
 	
