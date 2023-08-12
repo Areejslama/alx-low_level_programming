@@ -8,6 +8,7 @@
 */
 int main(void)
 {
+	char ch = 'a';
 	char ch = 'A';
 	/*prints a -Z*/
 	/*prints A - Z*/
