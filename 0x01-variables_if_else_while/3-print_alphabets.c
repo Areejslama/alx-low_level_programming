@@ -18,7 +18,7 @@ int main(void)
 	}
 	/*prints A - Z*/
 	while (B <= 'Z')
-	{	
+	{
 	putchar(B);
 	B++;
 	}
