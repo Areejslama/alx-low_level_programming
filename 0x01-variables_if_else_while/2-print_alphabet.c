@@ -6,22 +6,11 @@
  *
  * Return:0 Always (success)
 */
-int main (void)
+int main ()
 {
-
-  // set both the starting and ending alphabet
-  char start = 'a';
-  char end = 'z' ;
-
-  // initialize ch with the starting alphabet as a
-  char ch = start;
-
-  // print out characters from the initial value of ch til before z
-  while(ch != end)
-  {
-     putchar(ch);
-     ch++;
-  }
-  putchar("\n")
-  return 0;
+	int ch;
+	for(ch = 'a'; ch <= 'z'; ch++)
+	putchar(ch);
+	putchar("\n");
+	return (0);
 }
