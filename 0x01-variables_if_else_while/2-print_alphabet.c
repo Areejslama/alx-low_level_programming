@@ -8,9 +8,13 @@
 */
 int main ()
 {
-	int ch;
-	for(ch = 'a'; ch <= 'z'; ch++)
+	char ch ='a';
+	/*prints a - z*/
+	while (ch <= 'z')
+	{	
 	putchar(ch);
-	putchar("\n")
+	ch++;
+	}	
+	putchar ('\n')
 	return (0);
 }
