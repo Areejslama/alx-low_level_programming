@@ -1,15 +1,17 @@
-include <stdlib.h>
+#include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
 
 /**
  * main - Prints a text according number
  *
- * Return: Always (Success)
+ * Description:program will assign a random number
+ *
+ * Return:0 Always (Success)
  */
 int main(void)
 {
-	int n, last_digit;
+	int n;, last_digit;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
