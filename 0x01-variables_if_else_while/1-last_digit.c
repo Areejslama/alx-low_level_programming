@@ -19,11 +19,11 @@ int main (void)
 		 printf("enter a last digit of number:");
 		 scanf("%d",&n);
 
-		 if (digit >5);
+		 if (last_digit >5);
 			 printf("the last digit of n equal %d and is greater than 5\n",last_digit);
-		 else if (digit==0);
+		 else if (last_digit==0);
 			 p("the last digit of n equal %d and is zero\n",last_digit);
-		 else if (digit <6 &=!0);
+		 else if (last_digit <6 &=!0);
 			 printf("the last digit of n equal %d and is less than 6 and not 0\n",last_digit);
 		 return (0);
 
