@@ -1,4 +1,6 @@
 #include<stdio.h>
+#include <stdlib.h>
+#include <time.h>
 /**
  * main-this is entry point
  *
@@ -8,8 +10,8 @@
 */
 int main (void)
 {	
-		int n1,n2,n3
-		char last_digit	
+		int n1,n2,n3;
+		char last_digit;	
 
 		srand(time(0));
 		n = rand() - RAND_MAX / 2;
