@@ -11,7 +11,7 @@
 int main (void)
 {	
 		int n;
-		char last_digit;	
+		int last_digit;	
 
 		srand(time(0));
 		n = rand() - RAND_MAX / 2;
@@ -21,15 +21,15 @@ int main (void)
 
 		 if (last_digit >5)
 		 {
-			 printf("the last digit of equal %c and is greater than 5\n",n,last_digit);
+			 printf("the last digit of equal %d and is greater than 5\n",n,last_digit);
 		 }	 
 		 else if (last_digit==0)
 		 {
-                           printf("the last digit of equal %c and is zero\n",n,last_digit);
+                           printf("the last digit of equal %d and is zero\n",n,last_digit);
 		 }	   
 		 else if (last_digit <6 &=!0);
 		 {
-			 printf("the last digit of equal %c and is less than 6 and not 0\n",n,last_digit);
+			 printf("the last digit of equal %d and is less than 6 and not 0\n",n,last_digit);
 		 }	 
 		 return (0);
 
