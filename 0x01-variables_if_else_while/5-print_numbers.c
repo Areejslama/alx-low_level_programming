@@ -8,11 +8,11 @@
 */
 int main(void)
 {
-	int count = 0;
+	int countr = 0;
 
-	while (count < 10)
+	while (countr < 10)
 	{
-		printf("%d.", count);
+		printf("%d", countr);
 		count++;
 	}
 	return (0);
