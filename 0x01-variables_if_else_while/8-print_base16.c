@@ -11,7 +11,7 @@ int main(void)
 	char b = 0;
 	char c = 'a';
 	while (b < 10)
-	while (c <= f)	
+	while (c <= 'f')	
 	{
 	putchar(c);	
 	putchar(b);
