@@ -15,6 +15,7 @@ int main(void)
 	if (a == 9)
 	{	
 	putchar(a +'0');
+	}
 	else
 	putchar(' ');
 	putchar(',');
