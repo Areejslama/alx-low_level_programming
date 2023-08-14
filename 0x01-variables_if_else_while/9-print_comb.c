@@ -15,7 +15,9 @@ int main(void)
 	putchar(a +'0');
 	a++;
 	putchar(' ');
-	putchar(',' : " ");
+	putchar(',');
+	  /**Set flag to 1 in order to indicate we removed last comma*/
+	flag = 1;
 	}
 	putchar('\n');
 	return (0);
