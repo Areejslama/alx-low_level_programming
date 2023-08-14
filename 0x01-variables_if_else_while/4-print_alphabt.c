@@ -2,9 +2,9 @@
 /**
  * main-this is entry point
  *
- * Description: a program that prints the alphabet
+ * Description: program that prints the alphabet execpt q and e
  *
- * Return :0 Always (sucess)
+ * Return : 0 Always (sucess)
 */
 int main(void)
 {
@@ -18,5 +18,6 @@ int main(void)
 		 ch++;
 	}
 		 putchar('\n');
+		 
 		 return (0);
 }	 	 
