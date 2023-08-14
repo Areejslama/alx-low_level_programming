@@ -13,6 +13,7 @@ int main(void)
 	while (counter < 10)
 	{
 		printf("%d", counter);
+		
 		counter++;
 	}
 	return (0);
