@@ -10,8 +10,12 @@ int main(void)
 {
 	char b = 0;
 	char c = 'a';
-	for(b = 0; b < 10  ; b++)
-		
+
+	while (b < 10)
+	{
+	putchar(b);
+	b++
+	}
 	while (c <= 'f')	
 	{
 	putchar(c);	
