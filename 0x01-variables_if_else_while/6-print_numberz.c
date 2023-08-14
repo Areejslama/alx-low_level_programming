@@ -4,7 +4,7 @@
  *
  * Description: program that prints all single digit numbers
  *
- * Return :0 Always (success)
+ * Return : 0 Always (success)
 */
 int main(void)
 {
@@ -17,5 +17,5 @@ int main(void)
 		num++;
 		}
 		putchar('\n');
-		return(0);
+		return (0);
 }		
