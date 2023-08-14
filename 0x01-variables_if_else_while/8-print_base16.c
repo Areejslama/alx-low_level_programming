@@ -10,7 +10,7 @@ int main(void)
 {
 	int x = 48;
 
-	while (x <= 102 )
+	while (x <= 102)
 	{
 	putchar(x);
 	if (x == 57)
