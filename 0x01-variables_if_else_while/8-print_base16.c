@@ -2,7 +2,7 @@
 /**
  * main-this is entry point
  *
- * Description:program that prints all the numbers of base 16 
+ * Description:a program that prints all numbers in base 16
  *
  * Return:0 Always (success)
 */
@@ -13,10 +13,10 @@ int main(void)
 	while (x <= 102 )
 	{
 	putchar(x);
-	if (x==57)
-	x+=39;
+	if (x == 57)
+	x += 39;
 	x++;
 	}
 	putchar('\n');
-	return(0);
+	return (0);
 }	
