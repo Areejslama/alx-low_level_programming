@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main-this is entry point
+ * main- this is entry point
  *
  * Description: program that prints the alphabet execpt q and e
  *
