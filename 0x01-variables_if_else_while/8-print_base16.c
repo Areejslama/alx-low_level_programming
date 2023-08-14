@@ -14,7 +14,7 @@ int main(void)
 	while (b < 10)
 	{
 	putchar(b);
-	b++
+	b++;
 	}
 	while (c <= 'f')	
 	{
