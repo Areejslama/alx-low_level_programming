@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main-thi is entry point
+ * main-this is entry point
  *
- * Description: a program that prints all possible combinations of digit numbers
+ * Description: program that prints all possible combinations of digit numbers
  *
  * Return:0 Always (success)
 */
@@ -12,12 +12,12 @@ int main(void)
 
 	while ( a < 10)
 	{	
-	putchar(a +'0');
+	putchar(a + '0');
 
 	if (a != 9)
 	{	
-	putchar(' ');
 	putchar(',');
+	putchar(' ');
 	}
 	a++;
 	}
