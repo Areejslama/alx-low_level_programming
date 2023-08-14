@@ -2,7 +2,7 @@
 /**
  * main-this is entry point
  *
- * Description: program that prints all single digit numbers
+ * Description: program that prints all single digit numbers of base 10 
  *
  * Return : 0 Always (success)
 */
