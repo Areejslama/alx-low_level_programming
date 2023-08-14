@@ -9,8 +9,8 @@
 int main(void)
 {
 
-	int num = 0
-		while (num < 10);
+	int num = 0;
+		while (num < 10)
 		{
 		/*convert num ASCII representation*/
 		putchar(num + '0');
