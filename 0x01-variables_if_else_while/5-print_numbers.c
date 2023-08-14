@@ -8,12 +8,12 @@
 */
 int main(void)
 {
-	int countr = 0;
+	int counter = 0;
 
-	while (countr < 10)
+	while (counter < 10)
 	{
-		printf("%d", countr );
-		countr++;
+		printf("%d", counter);
+		counter++;
 	}
 	return (0);
 }
