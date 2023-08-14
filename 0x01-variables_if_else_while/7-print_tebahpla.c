@@ -2,7 +2,7 @@
 /**
  * main-this is entry point
  *
- * Description:program that prints the lowercase alphabet 
+ * Description:a program that prints the lowercase alpha
  *
  * Return:0 Always (success)
 */
@@ -17,4 +17,4 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
-}	
+}
