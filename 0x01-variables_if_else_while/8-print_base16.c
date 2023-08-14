@@ -10,10 +10,8 @@ int main(void)
 {
 	char b = 0;
 	char c = 'a';
-	for(b = 0; b < 10 && b!= 10 ; b++)
-	{
-		putchar('b'+'0');
-	}	
+	for(b = 0; b < 10  ; b++)
+		
 	while (c <= 'f')	
 	{
 	putchar(c);	
