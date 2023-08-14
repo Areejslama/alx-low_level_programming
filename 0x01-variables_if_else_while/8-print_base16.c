@@ -9,7 +9,7 @@
 int main(void)
 {
 	char b = 0;
-	while (b < 16);
+	while (b < 16)
 	{
 	putchar(b);
 	b++;
