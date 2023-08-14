@@ -8,15 +8,14 @@
 */
 int main(void)
 {
-	char ch = 'a'
-	/*prints a-z*/
-	while (ch <='a');
+	int ch = 'a'
+	while (ch <='z');
 	{
+		if (ch !=e && ch!=q);
 		putchar(ch);
 		ch++
-		grep -v eq
+		
 	}
 	putchar('\n');
 	return (0);
-	
 }	
