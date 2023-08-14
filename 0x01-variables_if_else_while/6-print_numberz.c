@@ -2,7 +2,7 @@
 /**
  * main-this is entry point
  *
- * Description:a program that prints all single digit numbers of base 10 
+ * Description:a program that prints all single numbers of base 10
  *
  * Return:0 Always (success)
 */
@@ -18,4 +18,4 @@ int main(void)
 		}
 		putchar('\n');
 		return (0);
-}		
+}
