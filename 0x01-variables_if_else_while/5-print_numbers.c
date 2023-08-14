@@ -8,13 +8,14 @@
 */
 int main(void)
 {
-	int counter = 0;
+	int count = 0;
 
-	while (counter < 10)
+	for (count = 0; count < 10; count++;)
 	{
-		printf("%d", counter);	
-		counter++;
+		putchar(count);
+		
 	}
-	putchar('\n')
+	putchar('\n');
+	return (0);
 	
 }
