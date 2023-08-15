@@ -3,11 +3,10 @@
 /**
  * main-this is entry point
  *
- * Description: print alphabet -function that prints the alphabet in lowercase
+ * Description:a function that prints the alphabet in lowercase
  *
  * Return:0 Always (success)
 */
-
 void print_alphabet(void)
 {
 	char ch = 'a';
