@@ -7,6 +7,7 @@
  *
  * Return:0 Always (success)
 */
+
 void print_alphabet(void)
 {
 	char ch = 'a';
@@ -14,7 +15,7 @@ void print_alphabet(void)
 	while (ch <= 'z')
 	{
 	_putchar(ch);
-        ch++;
-        }
-        _putchar ('\n');
+	ch++;
+	}
+	_putchar ('\n');
 }	
