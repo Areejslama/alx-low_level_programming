@@ -2,7 +2,7 @@
 /**
  * main-this is entry point
  *
- * Description: program that prints size of various type and run on 
+ * Description: program that prints size of various type and run on
  *
  * Return:0 Always (success)
  */
