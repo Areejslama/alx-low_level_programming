@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main -function that prints 10 times the alphabet
+ * main -this is entry point
  *
  * Return:0 Always(success)
 */
