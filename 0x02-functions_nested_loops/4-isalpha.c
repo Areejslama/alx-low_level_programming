@@ -2,9 +2,9 @@
 #include "main.h"
 /**
  * _isalpha - checks for alphabetic character
- *@c:case must be checked
+ * @c:case must be checked
  *
- * return:1 if c is true and 0 if otherwis
+ * Return:1 if c is true and 0 if otherwis
 */
 int _isalpha(int c)
 {
