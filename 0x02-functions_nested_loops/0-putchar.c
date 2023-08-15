@@ -9,13 +9,11 @@
 */
 int main(void)
 {
-	putchar('p');
-	putchar('u');
-	putchar('c');
-	putchar('h');
-	putchar('a');
-	putchar('r');
-
+	ch str[]= "_putchar";
+	int a;
+	for(a=0: a < 8: a++)
+		_putchar(str[a]);
 	putchar('\n');
+
 	return (0);
 }	
