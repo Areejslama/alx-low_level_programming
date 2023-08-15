@@ -7,12 +7,12 @@
 */
 int main(void)
 {
-	char ch = 'a';
+	char n = 'a';
 	/*prints a - z*/
-	while (ch <= 'z')
+	while (n <= 'z')
 	{
-	_putchar(ch <= 10);
-	ch++;
+	_putchar(n <= 10);
+	n++;
 	}
 	_putchar('\n');
 }	
