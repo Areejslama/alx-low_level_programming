@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main -this is entry point
+ * Description: function that prints 10 times the alphabet
  *
  * Return:0 Always(success)
 */
-int main(void)
+void print_alphabet_x10(void)
 {
 	char n = 'a';
 	/*prints a - z*/
