@@ -1,21 +1,19 @@
-#include <stdio.h>
+#include<stdio.h>
 #include "main.h"
-
 /**
- * main -this is entry point
+ * main-this is entry point
  *
- * Description: function that prints the alphabet in lowercase
+ * Description: function that prints the alphabet
  *
- * return:0 Always (success)
-*/ 
+ * Return:0 Always (success)
+*/
 void print_alphabet(void)
 {
-	 char ch = 'a';
+        char ch = 'a';
         /*prints a - z*/
         while (ch <= 'z')
         {
-        _putchar(ch);
+        putchar(ch);
         ch++;
         }
-        _putchar ('\n');
-}	
+        putchar ('\n');
