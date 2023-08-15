@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
- * main- this is entry point
+ * main-this is entry point
  *
- * Description: program that prints the alphabet execpt q and e
+ * Description:program that prints alphabet in lowercase
  *
- * Return : 0 Always (sucess)
+ * Return:0 Always (success)
 */
 int main(void)
 {	
