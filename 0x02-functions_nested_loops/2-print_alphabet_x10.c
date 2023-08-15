@@ -9,16 +9,15 @@ void print_alphabet_x10(void)
 {
 	char n = 'a';
 
-	int c = 9;
+	int c = 0;
 	/*prints a - z*/
 	while (c <= 10)
 	{
-	if(n <= 'z')
+	for (n = 'a'; c <= 'z'; c++;)
 	{	
 	_putchar(n);
-	}
 	n++;
 	}
 	_putchar('\n');
-	c++;
+	}
 }	
