@@ -7,6 +7,7 @@
  * Return : 0 Always (sucess)
 */
 int main(void)
+{	
 	char ch = 'a';
 
 	while (ch <= 'z')
