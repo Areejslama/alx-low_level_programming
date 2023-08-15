@@ -13,10 +13,10 @@ void print_alphabet_x10(void)
 	/*prints a - z*/
 	while (c <= 10)
 	{
-	for (n = 'a'; c <= 'z'; c++)
+	for (n = 'a'; n <= 'z'; n++)
 	{	
 	_putchar(n);
-	n++;
+	c++;
 	}
 	_putchar('\n');
 	}
