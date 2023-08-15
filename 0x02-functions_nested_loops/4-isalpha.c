@@ -4,7 +4,7 @@
  * _isalpha - checks for alphabetic character
  *@c:case must be checked
  *
- * return:1 if c is true and 0 if not
+ * return:1 if c is true 0 otherwise
 */
 int _isalpha(int c)
 {
