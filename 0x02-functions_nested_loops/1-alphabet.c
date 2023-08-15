@@ -6,7 +6,8 @@
  *
  * Description: function that prints the alphabet in lowercase
  *
-*/
+ * return:0 Always (success)
+*/ 
 void print_alphabet(void)
 {
 	 char ch = 'a';
