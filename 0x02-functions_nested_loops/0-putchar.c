@@ -4,7 +4,7 @@
 /**
  * main-this is entry point 
  *
- * Description: program that prints _putchar
+ * Description:program that prints _putchar
  *
  * Return: 0 Always (success)
 */
