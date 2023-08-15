@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -9,10 +10,14 @@
 */
 int main(void)
 {
-	ch str[]= "_putchar";
-	int a;
-	for(a=0: a < 8: a++)
-		_putchar(str[a]);
+	putchar('_');
+	putchar('p');
+	putchar('u');
+	putchar('t');
+	putchar('c');
+	putchar('h');
+	putchar('a');
+	putchar('a');
 	putchar('\n');
 
 	return (0);
