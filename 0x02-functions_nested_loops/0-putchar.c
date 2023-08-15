@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * main-this is entry point 
+ * main -this is entry point
  *
  * Description:program that prints _putchar
  *
