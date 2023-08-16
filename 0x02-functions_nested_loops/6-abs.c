@@ -2,7 +2,7 @@
 #include "main.h"
 /**
  * _abs -  computes the absolute value of an integer
- * @int:integer must be computes
+ * @i:integer must be computes
  *
  * Return:absolute value
 */
@@ -13,5 +13,7 @@ int _abs(int)
 	return(i);
 	}
 	else
+	{	
 	return (-i);
+	}
 }	
