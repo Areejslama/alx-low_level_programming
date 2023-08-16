@@ -18,10 +18,11 @@ void jack_bauer(void)
 	hr++;
 	_putchar(':');
 	}
-	else if (min <60)
+	else if (min < 60)
 	{
 	_putchar(min / 10 + '0');
 	_putchar(min % 10 + '0');
 	min++;
 	_putchar('\n');
-
+	}
+}
