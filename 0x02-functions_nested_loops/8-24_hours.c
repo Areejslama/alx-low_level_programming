@@ -7,6 +7,7 @@
  *
  * Return:every minute of the day of Jack Bauer
 */
+
 void jack_bauer(void)
 {
 	int hr = 0;
@@ -18,8 +19,7 @@ void jack_bauer(void)
 	_putchar(hr % 10 + '0');
 	hr++;
 	_putchar(':');
-	}
-	if (min < 60)
+	else 
 	{
 	_putchar(min / 10 + '0');
 	_putchar(min % 10 + '0');
