@@ -6,14 +6,17 @@
  *
  * Return:absolute value
 */
-int _abs(int)
+int _abs(int i)
 {
-	if ( i >= 0)
+	if ( i < 0)
 	{
-	return(i);
+	int abs_val;
+
+	abs_val = i* -1;
+	return (abs_val);
 	}
 	else
 	{	
-	return (-i);
+	return (i);
 	}
 }	
