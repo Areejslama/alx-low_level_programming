@@ -8,8 +8,8 @@
 */
 void jack_bauer(void)
 {
-	int hr;
-	int min;
+	int hr = 0;
+	int min = 0;
 
 	if (hr < 24)
 	{	
