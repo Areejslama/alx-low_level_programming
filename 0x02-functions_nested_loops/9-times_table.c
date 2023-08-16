@@ -13,7 +13,7 @@ void times_table(void)
 	{	
 		for (t = 1 ; t <= 9 ; t++)
 		{
-			prod = n * t
+			prod = n * t;
 			 if (t == 0)
                         {
                                 _putchar('0');
