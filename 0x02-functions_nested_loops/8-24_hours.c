@@ -1,7 +1,9 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * Description: a function that prints every minute of the day
+ * jack_bauer - a function that prints every minute of the day
+ * 
+ * Return:minutes
 */
 
 void jack_bauer(void)
@@ -10,13 +12,13 @@ void jack_bauer(void)
 	int min;
 
 	for(hr = 0 ; hr <= 23 ; hr++)
+	{
+	for(min = 0 ; min <= 59 ; min++)
 	{	
-	_putchar(hr / 10 + '0'); 
-	_putchar(hr % 10 + '0');
+	_putchar(hr / 10 + '0'); 	
+	_putchar(hr % 10 + '0');	
 	_putchar(':');
 	}
-       for(min = 0 ; min <= 59 ; min++)
-       {       
 	_putchar(min / 10 + '0'); 
        _putchar(min % 10 + '0');
 	_putchar('\n');
