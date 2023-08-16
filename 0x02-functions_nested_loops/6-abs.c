@@ -8,7 +8,7 @@
 */
 int _abs(int i)
 {
-	if ( i < 0 )
+	if (i < 0)
 	{
 	int abs_val;
 
@@ -19,4 +19,4 @@ int _abs(int i)
 	{
 	return (i);
 	}
-}	
+}
