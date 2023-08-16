@@ -1,10 +1,11 @@
 #include <stdio.h>
 #include "main.h"
+
 /** main - this is entry point
  *
  * Description: a function that prints every minute of the day
  *
- * Return:0 Always (success)
+ * Return:every minute of the day of Jack Bauer
 */
 void jack_bauer(void)
 {
@@ -18,7 +19,7 @@ void jack_bauer(void)
 	hr++;
 	_putchar(':');
 	}
-	else if (min < 60)
+	if (min < 60)
 	{
 	_putchar(min / 10 + '0');
 	_putchar(min % 10 + '0');
