@@ -9,11 +9,11 @@ void print_most_numbers(void)
 {
 	int s = 0;
 
-	while(s <= 9)
+	for( s = 0; s <= 9; s++)
 	{
 		if (s==2 || s == 4)
-			s++;
-		_putchar(s);
+			continue;
+		_putchar(s + '0');
 		s++;
 	}
 	_putchar('\n');
