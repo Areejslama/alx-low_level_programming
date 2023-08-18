@@ -9,9 +9,9 @@ void print_numbers(void)
 {
 	int num = 0;
 
-	if (num <= 57)
+	if (num <= 9)
 	{
-	_putchar(num);
+	_putchar(num + '0');
 	num++;
 	}
 	putchar('\n');
