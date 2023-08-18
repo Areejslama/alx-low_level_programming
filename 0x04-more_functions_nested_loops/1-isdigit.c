@@ -8,10 +8,9 @@
 */
 int _isdigit(int c)
 {
-	if (c <= 9 && c < 10)
+	if (c >= 0 && c <= 9)
 	{
 		return (1);
-		c++;
 	}
 	else
 	{
