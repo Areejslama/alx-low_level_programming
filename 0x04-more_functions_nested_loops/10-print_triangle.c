@@ -2,7 +2,7 @@
 #include "main.h"
 /**
  * print_triangle- function that prints a triangle
- * @size:an integer
+ * @size:number of square
  *
  * Return:print if size 0 or less
 */
