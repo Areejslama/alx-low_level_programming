@@ -9,11 +9,11 @@
 void reset_to_98(int *n)
 {
 	int a;
-	int *p;
+	int *n;
 
 	a = 402;
-	p = &a;
+	n = &a;
 	_putchar(a);
-	*p = 98;
+	*n = 98;
 	_putchar(a);
 }
