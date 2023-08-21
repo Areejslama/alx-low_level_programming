@@ -8,5 +8,7 @@
 */
 int _strlen(char *s)
 {
-	int str_len(char *s[ ]);
+	int str_len(char [*s] != '\0');
+	return (str_len);
+
 }
