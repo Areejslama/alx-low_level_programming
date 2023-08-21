@@ -8,9 +8,9 @@
 */
 void reset_to_98(int *n)
 {
-	int n;
+	int a;
 	n = 402;
-	_putchar('n');
+	_putchar('a');
 	*n = 98;
-	_putchar('n');
+	_putchar('a');
 }
