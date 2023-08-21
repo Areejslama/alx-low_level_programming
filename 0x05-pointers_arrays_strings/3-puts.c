@@ -8,6 +8,6 @@
 */
 void _puts(char *str)
 {
-	  puts(char *strptr);
-	  putchar('\n');
+	   puts(*str);
+	   _putchar('\n');
 }
