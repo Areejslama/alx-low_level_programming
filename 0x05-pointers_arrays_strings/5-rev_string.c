@@ -8,5 +8,4 @@
 */
 void rev_string(char *s)
 {
-	int a = 0;
-	for (a -= 1 ; a >= 0 ; a--)
+	for (s -= 1 ; s >= 0 ; s--)
