@@ -6,14 +6,14 @@
  *
  * Return:the value
 */
-void reset_to_98(int *n)
+void reset_to_98(int)
 {
-int a;
+	int a;
+	int *n;
 
-a = 402;
-{
-_putchar(a);
-}
-*n = 98;
-_putchar(a);
+	a = 402;
+	n = &a;
+	_putchar(a);
+	*n = 98;
+	_putchar(a);
 }
