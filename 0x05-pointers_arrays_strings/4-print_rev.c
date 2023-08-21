@@ -10,7 +10,8 @@ void print_rev(char *s)
 {
 	for (; *s != 0 ; s++)
 	{
-		_putchar rev(*s);
+		_putchar(*s);
+		rev *s
 	}
 	_putchar('\n');
 }
