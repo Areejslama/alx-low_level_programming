@@ -2,7 +2,7 @@
 #include "main.h"
 /**
  * _memset-  function that fills memory with a constant byte
- * @*s:pointer of the memory
+ * @s:pointer of the memory
  * @b:value to be copied
  * @n:an integer
  *
