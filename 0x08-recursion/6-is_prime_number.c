@@ -14,10 +14,11 @@ int is_prime_number(int n)
 /**
  * check_prime- check prime number
  * @n:number to be checked
+ * @i:number to be checked
  *
  * Return:1 or 0
 */
-int check_prime(int n , int i)
+int check_prime(int n, int i)
 {
 	if (n <= 1)
 	{
