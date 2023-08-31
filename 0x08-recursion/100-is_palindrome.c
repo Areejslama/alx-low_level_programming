@@ -1,8 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * is_palindrome-  if a string is a palindrome or not
- * strlen_recursion-  function that print a string
+ * _strlen_recursion-  function that print a string
  * @s:a string
  *
  * Return:1 or 0
