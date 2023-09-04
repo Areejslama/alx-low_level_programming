@@ -19,11 +19,11 @@ char *_strdup(char *str)
 	for (len = 0 ; str[len] != '\0' ; len++)
 		num++;
 
-	copy = malloc((sizeof(char) * len) + 1);
+	copy = malloc((sizeof(char) * num) + 1);
 	if (copy == NULL)
 	{
 		return (NULL);
 	}
-	str[len] = copy[len];
+	copy[len] = str[len];
 	return (copy);
 }
