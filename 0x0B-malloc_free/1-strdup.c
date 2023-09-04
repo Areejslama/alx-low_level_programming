@@ -9,13 +9,13 @@
 char *_strdup(char *str)
 {
 	char *copy;
-	int i;
+	int len;
 
 	if (str == NULL)
 	{
 		return (NULL);
 	}
-	for (i = 0 ; str[len] != '\0' ; len++)
+	for (len = 0 ; str[len] != '\0' ; len++)
 		len++;
 
 	copy = malloc((sizeof(char) * len) + 1);
@@ -23,7 +23,7 @@ char *_strdup(char *str)
 	{
 		return (NULL);
 	}
-	for (i = 0; copy[i] != '\0' ; i++)
-		copy[i] = str[i];
+	for (len = 0; copy[len] != '\0' ; len++)
+		copy[len] = str[len];
 	return (copy);
 }
