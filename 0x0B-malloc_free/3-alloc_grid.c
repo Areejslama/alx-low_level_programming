@@ -25,6 +25,7 @@ return (NULL);
 for (i = 0 ; i < height ; i++)
 {
 d[i] = malloc(sizeof(int *) * width);
+}
 if (d[i] == NULL)
 {
 free(d);
@@ -35,5 +36,4 @@ return (NULL);
 for (n = 0 ; n < width ; n++)
 d[i][n] = 0;
 return (d);
-}
 }
