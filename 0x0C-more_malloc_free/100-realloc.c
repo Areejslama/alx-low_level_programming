@@ -23,8 +23,10 @@ return (ptr);
 }
 if (new_size == 0 && ptr != NULL)
 {
+free(ptr);
 return (NULL);
 }
+output = malloc(sizeof(int) * old_size);
 output = malloc(sizeof(int) * new_size);
 new_size++;
 output = realloc(output, sizeof(int) * new_size);
