@@ -1,6 +1,5 @@
-#include <stdio.h>
-#ifndef "dog.h"
-#define "dog.h"
+#ifndef DOG_H
+#define DOG_H
 /**
  * struct dog- new struct
  *@name:first member
