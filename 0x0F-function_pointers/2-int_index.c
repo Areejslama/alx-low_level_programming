@@ -13,7 +13,7 @@ int i;
 
 if (array == NULL || cmp == NULL)
 {
-return (-1);
+return;
 }
 if (size <= 0)
 {
