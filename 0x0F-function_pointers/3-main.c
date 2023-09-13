@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include "calc.h"
+#include "3-calc.h"
 /**
  * main- thi is entry point
  * @argc:argument count
