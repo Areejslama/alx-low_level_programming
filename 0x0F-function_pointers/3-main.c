@@ -16,26 +16,25 @@ int main(int argc, char *argv[])
 
 	if (argc != 4)
 	{
-		return ("Error\n");
+		printf("Error\n");
 		exit(98);
 	}
 	num1 = atoi(argv[1]);
 	op = (argv[2]);
 	num2 = atoi(argv[3]);
-	func = get_op_func(op);
+	fun = get_op_func(op);
 
-	if (func == NULL ||  op[1] != '\0')
+	if (fun == NULL ||  op[1] != '\0')
 	{
-		return ("Error\n");
+		printf("Error\n");
 			exit(99);
 	}
-	if (*op == '/' && num2 == 0)
-	(*op == '%' && num2 == 0)
+	if (*op == '/' || *op == '%' && num2 == 0 )
 	{
-		return ("Error\n");
+		printf("Error\n");
 		exit(100);
 	}
-	result = func(num1, num2);
+	result = fun(num1, num2);
 	printf("%d\n", result);
 	return (0);
 }
