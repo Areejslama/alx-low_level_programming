@@ -1,3 +1,5 @@
+#include <stdlib.h>
+#include <stdio.h>
 #include "3-calc.h"
 /**
  * main- thi is entry point
@@ -22,12 +24,13 @@ int main(int argc, char *argv[])
 	num2 = atoi(argv[3]);
 	func = get_op_func(op);
 
-	if (func == NULL)
+	if (func == NULL ||  op[1] != '\0')
 	{
 		return ("Error\n");
 			exit(99);
 	}
-	if (num2 == 0 && *op == '/' || *op == '%')
+	if (*op == '/' && num2 == 0)
+	(*op == '%' && num2 == 0)
 	{
 		return ("Error\n");
 		exit(100);
