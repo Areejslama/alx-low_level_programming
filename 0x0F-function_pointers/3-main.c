@@ -27,7 +27,7 @@ int main(int argc, char *argv[])
 		return ("Error\n");
 			exit(99);
 	}
-	if (num2 == 0 && op[0] == '/' || op[0] == '%')
+	if (num2 == 0 && *op == '/' || *op == '%')
 	{
 		return ("Error\n");
 		exit(100);

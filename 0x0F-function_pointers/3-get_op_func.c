@@ -1,4 +1,5 @@
 #include "3-calc.h"
+#include <stdlib.h>
 /**
  * get_op_func- function that selects the correct function to perform
  * @s:the opreator
@@ -17,7 +18,7 @@ op_t ops[] = {
 };
 int i;
 
-while (s && s[0] == ops[i].op[0] && !s[1])
+while (ops[i].op != NULL && ops[i].op != *s)
 {
 return (ops[i].f);
 }
