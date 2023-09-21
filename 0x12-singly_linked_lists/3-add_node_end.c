@@ -33,7 +33,7 @@ node = *head;
 while (node->next)
 node = node->next;
 node->next = last;
-return (node);
+return (last);
 }
 }
 return (NULL);
