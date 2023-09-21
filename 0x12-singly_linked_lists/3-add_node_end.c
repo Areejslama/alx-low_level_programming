@@ -20,7 +20,7 @@ if (node == NULL)
 return (NULL);
 }
 node->str = strdup(str);
-for (n = 0; str[n]!= '\0'; n++)
+for (n = 0; str[n] != '\0'; n++)
 	r++;
 node->len = r;
 node->next = NULL;
