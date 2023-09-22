@@ -2,8 +2,8 @@ global  main
 extern  printf
 
 main:
-mov  rdi,format
-mov rax,0
+mov  edi,format
+mov eax,0
 call printf
 xor eax,eax
 ret
