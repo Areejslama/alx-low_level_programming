@@ -1,7 +1,7 @@
 #include <stdio.h>
 void myfirst(void) __attribute__ ((constructor));
 /**
- * printf- print a string
+ * myfirst- print a function
  *
  * Return:void
 */
