@@ -7,10 +7,10 @@
 size_t print_listint(const listint_t *h)
 {
 size_t i = 0;
-listint_t *head; 
+listint_t *head;
 
 head = malloc(sizeof(listint_t));
-while(h != NULL)
+while (h != NULL)
 {
 if (head == NULL)
 {
