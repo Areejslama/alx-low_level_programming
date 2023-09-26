@@ -13,13 +13,13 @@ listint_t *node;
 new = malloc(sizeof(listint_t));
 if (new == NULL)
 {
-        return (NULL);
+return (NULL);
 }
 new->n = n;
 new->next = NULL;
 if (*head == NULL)
 {
-        *head = new;
+*head = new;
 }
 else
 {
