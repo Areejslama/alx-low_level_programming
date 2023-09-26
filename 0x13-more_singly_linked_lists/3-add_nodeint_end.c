@@ -31,4 +31,5 @@ node = node->next;
 node->next = new;
 }
 return (new);
+free(new);
 }
