@@ -2,7 +2,7 @@
 /**
  * pop_listint- delet the head node
  * @head:pointer
- * Return:0 
+ * Return:0
 */
 int pop_listint(listint_t **head)
 {
