@@ -14,5 +14,6 @@ listint_t *current;
 		current = head->next;
 		free(head);
 		head = current;
+		free(current);
 	}
 }
