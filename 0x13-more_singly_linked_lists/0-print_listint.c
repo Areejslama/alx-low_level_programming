@@ -21,7 +21,9 @@ else
 printf("%d\n",  h->n);
 i++;
 h = h->next;
+free(head);
 }
 }
 return (i);
+
 }
