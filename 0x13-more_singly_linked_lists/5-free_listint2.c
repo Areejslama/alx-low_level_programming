@@ -14,3 +14,4 @@ current = *head;
 *head = (*head)->next;
 free(current);
 }
+}
