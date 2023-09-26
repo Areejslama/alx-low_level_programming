@@ -10,16 +10,9 @@ size_t i = 0;
 
 while (h != NULL)
 {
-if (head == NULL)
-{
-printf("Erorr\n");
-}
-else
-{
-printf("%d\n",  h->n);
-i++;
+printf("%d\n", h->n);
 h = h->next;
-}
+i++;
 }
 return (i);
 }
