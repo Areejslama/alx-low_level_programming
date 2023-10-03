@@ -7,8 +7,8 @@
 /**
  * append_text_to_file- append to the text file
  * @filename:name
- * @file_content:content
- * Return :-1
+ * @text_content:content
+ * Return:0
  */
 int append_text_to_file(const char *filename, char *text_content)
 {
