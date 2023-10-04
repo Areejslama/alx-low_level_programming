@@ -1,5 +1,6 @@
 #include "main.h"
 #include <unistd.h>
+#include <fcntl.h>
 
 /**
  * read_textfile- reads a text file and prints it to the POSIX
@@ -9,23 +10,28 @@
 */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
-	  int fd, readed;
-	char *buff = malloc(sizeof(char *) * letters);
+	  int file;
+	  size_t count;
+	  size_t f;
+	  char *let;
 
-	if (!buff)
+	  let = malloc(letters);
+	if (filename == NULL)
+	{
 		return (0);
-
-	if (!filename)
+	}
+	if (let == NULL)
+	{
 		return (0);
-
-	fd = open(filename, O_RDONLY, 0600);
-	if (fd == -1)
+	}
+	file = open("filename", O_RDONLY);
+	if (file == -1)
+	{
+		free(let);
 		return (0);
-
-	readed = read(fd, buff, letters);
-	write(STDOUT_FILENO, buff, readed);
-
-	free(buff);
-	close(fd);
-	return (readed);
+	}
+	count = read(file,  let, letters);
+	f = write(STDOUT_FILENO, let, count);
+	close(file);
+	return (f);
 }
