@@ -16,11 +16,11 @@ ssize_t read_textfile(const char *filename, size_t letters)
         size_t let;
 	size_t f;
         
+	file = malloc(letters);
         if (filename == NULL)
         {       
                 return (0);
         }
-	file = malloc(letters);
 	if (file == NULL)
 	{
 		free(file);
