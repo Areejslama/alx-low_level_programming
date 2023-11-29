@@ -31,19 +31,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 		return (0);
 	}
 	let = read(r, file, letters);
-	if (let == -1)
-	{
-		close(r);
-		free(file);
-		return (0);
-	}
 	f = write(STDIN_FILENO, file, let);
-	if (f == -1 || f != let)
-	{
-		close(r);
-		free(file);
-		return (0);
-	}
 	close(r);
 	free(file);
 	return (f);
