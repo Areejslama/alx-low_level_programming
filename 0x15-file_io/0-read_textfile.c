@@ -38,8 +38,8 @@ ssize_t read_textfile(const char *filename, size_t letters)
 		free(file);
 		return (0);
 	}
-	f = write(STDIN_FILENO, file, let);
-	if (f == -1 || f != let)
+	f = write(STDOUT_FILENO, file, let);
+	if (f == -1)
 	{
 		close(r);
 		free(file);
