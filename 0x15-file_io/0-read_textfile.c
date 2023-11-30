@@ -32,7 +32,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 		return (0);
 	}
 	let = read(r, file, letters);
-	if (let == NULL)
+	if (let == -1)
 	{
 		close(r);
 		free(file);
