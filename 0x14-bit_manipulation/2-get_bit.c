@@ -3,7 +3,7 @@
 #include "main.h"
 
 /**
-* get_bit - function that returns the value of a bit 
+* get_bit- function that returns the value of a bit
 * @n:number
 * @index:index
 *
