@@ -3,8 +3,9 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
- * free_list-  frees a list
+ * free_dlistint-  frees a list
  * @head:first node
+ *
  * Return:void
 */
 void free_dlistint(dlistint_t *head)
@@ -14,6 +15,7 @@ void free_dlistint(dlistint_t *head)
 	while (head != NULL)
 	{
 		dlistint_t *current = node->next;
+
 		free(current);
 		current = node;
 	}
